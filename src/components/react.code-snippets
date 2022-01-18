@@ -1,0 +1,44 @@
+{
+    "Functional Component": {
+      "prefix": "fc",
+      "body": [
+        "import React from 'react'",
+        "",
+        "type $1Props = {",
+        "",
+        "}",
+        "",
+        "const $1: React.FC<$1Props> = () => (",
+        "  <div>",
+        "    ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}",
+        "  </div>",
+        ")",
+        "",
+        "export default $1",
+        ""
+      ],
+      "description": "React functional component"
+    },
+    "Functional Component return": {
+      "prefix": "fcr",
+      "body": [
+        "import React from 'react'",
+        "",
+        "type $1Props = {",
+        "",
+        "}",
+        "",
+        "const $1: React.FC<$1Props> = () => {",
+        "  return (",
+        "    <div>",
+        "      ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}",
+        "    </div>",
+        "  )",
+        "}",
+        "",
+        "export default $1",
+        ""
+      ],
+      "description": "React functional component with return"
+    },
+  }
