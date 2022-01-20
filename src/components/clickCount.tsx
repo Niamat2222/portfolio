@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 type ClickCountProps = {
 
 }
 
 const ClickCount: React.FC<ClickCountProps> = () => {
+  const [counter, setCounter] = useState(0);
   return (
     <div>
-      <p>ClickCount {ClickCount} time</p>
-      <button onClick={() => ClickCount}>
-      Click me
+      <p>ClickCount {counter} time</p>
+      <button onClick={() => setCounter(counter + 1)}>
+      Click her
       </button>
     </div>
   )
