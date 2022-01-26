@@ -7,7 +7,7 @@ type ProjectsProps = {
 const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div>
-      Projects
+      Projects are her
     </div>
   )
 }
