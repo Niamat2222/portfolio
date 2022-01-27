@@ -14,6 +14,7 @@ import Main from './components/sites/main';
 import Cv from './components/sites/cv';
 import Projects from './components/sites/projects';
 import img2 from "./media/img2.png"
+import img1 from "./media/img1.png"
 const App: React.FC = () => {
   return (
       // Important! add your repositoryname to basename
@@ -34,7 +35,10 @@ const App: React.FC = () => {
          <p>This is my Portfolio Website</p>
          <p>Details and work experince web development.</p>
          </div>
-         <img src={img2} alt='back' />
+         <div className= "images">
+         <img className={styles.img2} src={img2} alt='back' />
+         <img className={styles.img1} src={img1} alt='back' />
+         </div>
         </div>
         <Switch>
           {/* Changing content comes here */}

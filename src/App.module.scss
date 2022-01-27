@@ -10,7 +10,7 @@
 }
 nav{
     display: flex;
-    width: 84%;
+    width: 85%;
     margin: auto;
     padding: 20px 30px;
     align-items: center;
@@ -35,17 +35,22 @@ nav ul li a:hover{
 }
 .detail{
     margin-top: 4%;
-    margin-left: 2%;
+    margin-left: 10%;
 }
 .detail h1{
-    font-size: 50px;
+    font-size: 60px;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 span{
     color: aqua;
 }
-img{
+div p{
+    color: black;
+    line-height: 25px;
+    font-weight: bolder;
+}
+.img2{
     cursor: pointer;
     height: 80vh;
     position: absolute;
@@ -54,7 +59,7 @@ img{
     transform: translateX(45%);
     transition: bottom 1s, left 1s;
 }
-img{
+.img2{
     border-radius: 10%;
     background-color: rgb(245, 177, 52);
     height: 450px;
@@ -68,9 +73,11 @@ img{
     transform: translateX(55%);
     transition: top 1s, left 1s;
 }
-.img{
+.img2{
     top: 120px;
-    border-color: rgb(255, 0, 0);
+    border-color: black;
     background-color: transparent;
     background-color: #212121;
+}
+.img1{
 }
