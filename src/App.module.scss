@@ -10,18 +10,20 @@
 }
 nav{
     display: flex;
-    width: 85%;
+    width: 55%;
     margin: auto;
-    padding: 20px 30px;
     align-items: center;
     justify-content: space-between;
     padding-left: 50%;
+    background-color: aqua;
+    
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 20px 30px;
+    font-size: 20px;
 }
 
 nav ul li a{
@@ -31,11 +33,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-      color: aqua;
+      color: white;
 }
 .detail{
-    margin-top: 4%;
-    margin-left: 10%;
+  
+    margin-left: 5%;
 }
 .detail h1{
     font-size: 60px;
@@ -50,32 +52,24 @@ div p{
     line-height: 25px;
     font-weight: bolder;
 }
-.img2{
-    cursor: pointer;
-    height: 80vh;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(45%);
-    transition: bottom 1s, left 1s;
-}
-.img2{
-    border-radius: 10%;
-    background-color: rgb(245, 177, 52);
-    height: 450px;
-    width: 300px;
-    border: 10px solid rgb(24, 23, 23);
+.img3{
+    height: 300px;
+    width: 500px;
+    border: 10px solid aqua;
     overflow: hidden;
     position: absolute;
-    left: 50%;
-    top: 20%;
+    left: 35%;
+    top: 15%;
     bottom: 0;
     transform: translateX(55%);
-    transition: top 1s, left 1s;
+    
 }
-.img2{
-    top: 120px;
-    border-color: black;
-    background-color: transparent;
-    background-color: #212121;
+.website1{
+    width: 1500px;
+    height: 800px;
+    top: 1%;
+    padding-left: 3%;
+    position: static;
+    display: flex;
+    position:-webkit-sticky;
 }
