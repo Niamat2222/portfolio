@@ -1,14 +1,11 @@
 // App.tsx
 import React from 'react'
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
 import ClickCount from './components/clickCount';
 import styles from "./App.module.scss"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom';
 import Main from './components/sites/main';
 import Cv from './components/sites/cv';
@@ -24,10 +21,10 @@ const App: React.FC = () => {
         <div className={styles.navbar}>
          <nav>
            <ul>
-               <li><a href="main.tsx">HOME</a></li>
-               <li><a href="#">ABOUT</a></li>
-               <li><a href="projects.tsx">PORTFOLIO</a></li>
-               <li><a href="cv.tsx">CV</a></li>
+               <li><a href=".">HOME</a></li>
+               <li><a href=".">ABOUT</a></li>
+               <li><a href="/projects">PORTFOLIO</a></li>
+               <li><a href="/cv">CV</a></li>
            </ul>
          </nav>
          <div className={styles.detail}>
@@ -41,9 +38,6 @@ const App: React.FC = () => {
          </div>
         </div>
         <Switch>
-          {/* Changing content comes here */}
-          {/* <Route exact path='/' component={MyFirstComponent} /> */}
-          {/* <Route exact path='/example' component={SomeExampleComponent}/> */}
           <Route exact path={"/"} component={Main} />
           <Route exact path={"/cv"} component={Cv} />
           <Route exact path={"/projects"} component={Projects} />
