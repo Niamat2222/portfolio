@@ -35,13 +35,18 @@ const App: React.FC = () => {
          <div className= "images">
          {/*<img className={styles.img3} src={img3} alt='back' />*/}
          <Banner text=''  className={styles.pic}/>
-        </div>
-        </div>
-        <Switch>
+         </div>
+         <div className={styles.about}>
+          <h1>Hello<span> I'm Niamtullah Akbari:</span></h1>
+          <p>I am an IT student and in the afternoon I work with Foodora and Wolt in food delivery.
+            In the IT industry, I have complained about programming because I like coding to make websits and games.</p>
+         </div>
+         </div>
+         <Switch>
           <Route exact path={"/"} component={about} />
           <Route exact path={"/cv"} component={Cv} />
           <Route exact path={"/projects"} component={Projects} />
-        </Switch>
+         </Switch>
   
         {/* The footer and other components you want to display on all pages come here */}
         <ClickCount />
