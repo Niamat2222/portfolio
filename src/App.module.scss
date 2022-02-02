@@ -38,38 +38,29 @@ nav ul li a:hover{
 .detail{
   
     margin-left: 5%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
 }
 .detail h1{
     font-size: 60px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 span{
     color: aqua;
 }
 div p{
-    color: black;
+    color: rgb(255, 251, 251);
     line-height: 25px;
     font-weight: bolder;
 }
-.img3{
-    height: 300px;
-    width: 500px;
-    border: 10px solid aqua;
-    overflow: hidden;
-    position: absolute;
-    left: 35%;
-    top: 15%;
-    bottom: 0;
-    transform: translateX(55%);
-    
-}
 .website1{
-    width: 1500px;
-    height: 800px;
-    top: 1%;
-    padding-left: 3%;
-    position: static;
     display: flex;
-    position:-webkit-sticky;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 100vw;
+    min-height: 500px;
+    height: auto;
 }
