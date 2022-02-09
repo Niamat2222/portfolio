@@ -11,8 +11,10 @@ const Main: React.FC<MainProps> = () => {
     <div className={styles.container}>
       <Banner text='ABOUT ME'  className={styles.pic}/>
       <h1>What I'm doing</h1>
-       <p>Tällä hetkellä opiskelen tieto ja viestintätekniikka perustutkinto ohjelmoinnin osa  joka valmistu 03.06.2023 ja iltapäivällä teen Woltin kanssa ruokatoimitus työtä.</p>
+       <p>I am studying Information and Communication Technology in Vocational Qualification. The planned graduation from the school is 6/3/2023. In the afternoon I work at Wolt as a food courier</p>
        <h1>What I have don</h1>
+       <p></p>
+       <h1>what kind of am I</h1>
     </div>
     
   )

@@ -17,4 +17,18 @@
     color: #11cdd4;
     position:absolute; left: 327px; top:290px;
     text-align: center;
+    animation: animation 3s;
+}
+@keyframes animation{
+    0%{
+        letter-spacing: -90px;
+        filter: blur(8px);
+        letter-spacing: 90px;
+    }
+    50%{
+        filter: blur(8px);
+    }
+    100%{
+        lettter-spacing: 10px
+    }
 }

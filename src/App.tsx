@@ -34,7 +34,7 @@ const App: React.FC = () => {
                </Link>
              </li><li>
                <Link to='/projects'>
-                 PORTFOLIO
+                 PROJECTS
                </Link>
              </li><li>
                <Link to='/cv'>
