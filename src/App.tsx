@@ -11,6 +11,7 @@ import {
   HashRouter as Router,
   Switch,
   Route,
+  Link
 } 
 from 'react-router-dom';
 
@@ -23,14 +24,32 @@ const App: React.FC = () => {
         <div className={styles.navbar}>
          <nav>
            <ul>
+             <li>
+               <Link to='/'>
+                 Home
+               </Link>
+             </li>
+             <li>
+               <Link to='/about'>
+                 ABOUT
+               </Link>
+             </li><li>
+               <Link to='/projects'>
+                 PORTFOLIO
+               </Link>
+             </li><li>
+               <Link to='/cv'>
+                 CV
+               </Link>
+             </li>
+{/*              
                <li><a href="/">HOME</a></li>
                <li><a href="/about">ABOUT</a></li>
                <li><a href="/projects">PORTFOLIO</a></li>
-               <li><a href="/cv">CV</a></li>
+               <li><a href="/cv">CV</a></li> */}
            </ul>
          </nav>
         </div>
-
 
          <Switch>
           <Route exact path={"/"} component={Main} />
