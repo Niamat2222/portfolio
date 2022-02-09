@@ -10,7 +10,9 @@ const Main: React.FC<MainProps> = () => {
   return (
     <div className={styles.container}>
       <Banner text='ABOUT ME'  className={styles.pic}/>
-       <p>I am an IT student. I chose programming because I like coding websites and games.</p>
+      <h1>What I'm doing</h1>
+       <p>Tällä hetkellä opiskelen tieto ja viestintätekniikka perustutkinto ohjelmoinnin osa  joka valmistu 03.06.2023 ja iltapäivällä teen Woltin kanssa ruokatoimitus työtä.</p>
+       <h1>What I have don</h1>
     </div>
     
   )

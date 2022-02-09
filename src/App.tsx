@@ -8,7 +8,7 @@ import Main from './components/sites/main/main'
 
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } 
@@ -23,7 +23,7 @@ const App: React.FC = () => {
         <div className={styles.navbar}>
          <nav>
            <ul>
-               <li><a href="/main">HOME</a></li>
+               <li><a href="/">HOME</a></li>
                <li><a href="/about">ABOUT</a></li>
                <li><a href="/projects">PORTFOLIO</a></li>
                <li><a href="/cv">CV</a></li>
@@ -33,7 +33,7 @@ const App: React.FC = () => {
 
 
          <Switch>
-          <Route exact path={"/main"} component={Main} />
+          <Route exact path={"/"} component={Main} />
           <Route exact path={"/about"} component={about} />
           <Route exact path={"/cv"} component={Cv} />
           <Route exact path={"/projects"} component={Projects} />
