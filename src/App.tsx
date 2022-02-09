@@ -17,8 +17,7 @@ from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
-      // Important! add your repositoryname to basename
-      <Router basename='/portfolio'>
+      <Router>
       
         {/* The navigation bar and other components you want to display on all pages come here */}
         <div className={styles.navbar}>
