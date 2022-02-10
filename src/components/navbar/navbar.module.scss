@@ -1,0 +1,30 @@
+.container {
+    background-color: rgb(88, 124, 139);
+    min-height: 50px;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 20px 30px;
+        font-size: 20px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        @media screen and (max-width: 547px) {
+            font-size: 3vw;
+        }
+    }
+    
+    ul li a:hover{
+          color: white;
+    }
+}
