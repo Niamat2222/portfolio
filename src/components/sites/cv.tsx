@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './cv.module.scss'
 import Banner from './bgpic/pic'
-import pics from '../../media/me.png'
+import pics from '../../media/myimg.png'
 type CvProps = {
 
 }
@@ -11,11 +11,12 @@ const Cv: React.FC<CvProps> = () => {
     <div>
        <div className={styles.container}>
        <Banner text='CV' className={styles.pic}/>
-      </div>
-      <div className={styles.niamatPicFrame} >
-      <img className={styles.niamatPic} src={pics}  alt="Italian mafia"></img>
        </div>
-    </div>
+       <div className={styles.mycv}>
+       <img className={styles.myimg} src={pics}  alt="Niamat"/>
+       </div>
+       <p className={styles.cvtitle}> MY CV </p>
+       </div>
   )
 }
 

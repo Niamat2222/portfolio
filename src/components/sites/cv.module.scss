@@ -1,9 +1,21 @@
-.niamatPic{
-    width: 200px;
-    height: auto;
-    display: block;
+.container{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
-
-.niamatPicFrame{
-    position: absolute;   top: 200px;   left: 960px;
+.myimg{
+    width: 200px;
+    width: 160px;
+    border: 10px solid aqua;
+    margin: 0 15px;
+    margin-left:60%;
+}
+.myimg:hover {
+    transform: scaleX(-1);
+}
+.cvtitle{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: -10%;
 }
