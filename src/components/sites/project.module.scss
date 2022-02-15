@@ -7,12 +7,25 @@
     align-content: center;
     text-align: center;
 }
+.Projects ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .GmProjects{
-    width: 20%;
-    border: 10px solid aqua;
+    width: 160px;
+    border: 3px solid black;
+    margin: 0 15px;
 }
 .GmProjects:hover {
     transform: scaleX(-1);
     transform: scaleX(-1);
+}
+ul a p{
+    margin: 20px 30px;
+    color: black;
 }
