@@ -1,11 +1,18 @@
 .title{
-    font-size: 23px;
+    font-size: 30px;
 }
-
-
 .container{
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
+}
+
+.GmProjects{
+    width: 20%;
+    border: 10px solid aqua;
+}
+.GmProjects:hover {
+    transform: scaleX(-1);
+    transform: scaleX(-1);
 }

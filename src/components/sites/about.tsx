@@ -12,7 +12,7 @@ const Main: React.FC<MainProps> = () => {
       <Banner text='ABOUT ME'  className={styles.pic}/>
       <h1>What I'm doing</h1>
        <p>I am studying Information and Communication Technology in Vocational Qualification. The planned graduation from the school is 6/3/2023. In the afternoon I work at Wolt as a food courier</p>
-       <h1>What I have don</h1>
+       <h1>What I have done</h1>
        <p>I studied at the Vantaa Adult Primary School, during the primary school I did an internship twice and everyone lasted for 2 weeks, I have also worked at Eezy and Varapu a few times in grocery stores.</p>
        <p>In working life, I have done teamwork and sometimes I was alone.</p>
        <h1>what kind of am I</h1>
