@@ -9,13 +9,20 @@
     width: 160px;
     border: 10px solid aqua;
     margin: 0 15px;
-    margin-left:60%;
+    margin-left:65%;
 }
 .myimg:hover {
     transform: scaleX(-1);
 }
-.cvtitle{
+.activities h1{
     font-size: 30px;
     margin-left: 30%;
-    margin-top: -10%;
+    text-align: center;
+    margin:auto;
+    margin-top: 3%;
+    background-color: rgb(70, 113, 131);
+}
+.activities h1 p{
+    font-size: medium;
+    text-align: center;
 }
