@@ -17,7 +17,7 @@ const Cv: React.FC<CvProps> = () => {
        </div>
        <div className={styles.activities}>
          <h1>PROGRAMMING LANGUAGES&#128037;
-           <p>Java&#128330;, TypeScript&#128330; JavaScript&#128330; C#&#128330; Unity&#128330; React&#128330; SQL&#128330; Node Sql&#128330; HTML&#128330; CSS&#128330; ReactJs</p>
+           <p>Java&#128330;, TypeScript&#128330;, JavaScript&#128330;, C#&#128330;, Unity&#128330;, React&#128330;, SQL&#128330;, Node Sql&#128330;, HTML&#128330;, CSS&#128330;, ReactJs</p>
          </h1>
        </div>
        <div className={styles.activities}>
