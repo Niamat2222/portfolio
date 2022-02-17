@@ -16,6 +16,19 @@ const Cv: React.FC<CvProps> = () => {
        <img className={styles.myimg} src={pics}  alt="Niamat"/>
        </div>
        <div className={styles.activities}>
+         <h1>ABOUT ME
+           <p>I am studying Information and Communication Technology in Vocational Qualification.
+              The planned graduation from the school is 6/3/2023. In the afternoon I work at Wolt as a food courier</p>
+           
+           <p>I studied at the Vantaa Adult Primary School,
+              during the primary school I did an internship twice and everyone lasted for 2 weeks, I have also worked at Eezy and Varapu a few times in grocery stores.</p>
+           
+           <p>In working life, I have done teamwork and sometimes I was alone.</p>
+           
+           <p>I am hardworking, brisk and friendly I like to work in a team and alone.</p>
+         </h1>
+       </div>
+       <div className={styles.activities}>
          <h1>PROGRAMMING LANGUAGES
            <p>Java, TypeScript, JavaScript, C#, Unity, React, SQL, Node Sql, HTML, CSS, ReactJs</p>
          </h1>

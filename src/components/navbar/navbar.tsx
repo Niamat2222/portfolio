@@ -17,12 +17,6 @@ const Navbar: React.FC<NavbarProps> = () => {
             </li>
 
             <li>
-                <Link to='/about'>
-                ABOUT
-                </Link>
-            </li>
-
-            <li>
                 <Link to='/projects'>
                 PROJECTS
                 </Link>
