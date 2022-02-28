@@ -1,11 +1,8 @@
-import React from 'react'
-import styles from '../main/main.module.scss'
-import Banner from '../bgpic/pic'
-type MainProps = {
+import React from 'react';
+import styles from '../main/main.module.scss';
+import Banner from '../bgpic/pic';
 
-}
-
-const Main: React.FC<MainProps> = () => {
+const Main: React.FC = () => {
   return (
     <div className={styles.container}>
       <Banner text='Welcome to my portfolio'  className={styles.pic}/>
@@ -19,4 +16,4 @@ const Main: React.FC<MainProps> = () => {
   )
 }
 
-export default Main
+export default Main;
