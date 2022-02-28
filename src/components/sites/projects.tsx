@@ -21,15 +21,15 @@ const Projects: React.FC<ProjectsProps> = () => {
           <p>Click On Play.Unity</p>
          </a>
          <a href='https://www.credly.com/badges/77061c91-e3ca-4ca0-bb66-53fb50095001/public_url/'>
-          <img className={styles.GmProjects} src={pics1}  alt="Dragon"/>
+          <img className={styles.CiscoProjects} src={pics1}  alt="Dragon"/>
           <p>Click On My Badge</p>
          </a>
          <a href='https://www.credly.com/badges/4943d606-6063-4079-bcf5-e4e3470da663/public_url/'>
-          <img className={styles.GmProjects} src={pics2}  alt="Dragon"/>
+          <img className={styles.CiscoProjects} src={pics2}  alt="Dragon"/>
           <p>Click On My Badge</p>
          </a>
          <a href='https://www.credly.com/badges/78216aea-da3e-4cfd-9834-1040c7367d61/public_url/'>
-          <img className={styles.GmProjects} src={pics3}  alt="Dragon"/>
+          <img className={styles.CiscoProjects} src={pics3}  alt="Dragon"/>
           <p>Click On My Badge</p>
          </a>
        </ul>
