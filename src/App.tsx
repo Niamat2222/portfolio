@@ -27,6 +27,12 @@ const App: React.FC = () => {
          </Switch>
   
         {/* The footer and other components you want to display on all pages come here */}
+
+       <footer>
+          <p>Author: Hege Refsnes
+          <a href="mailto:hege@example.com">hege@example.com</a>
+          </p>
+       </footer>
   
       </Router>
    )
