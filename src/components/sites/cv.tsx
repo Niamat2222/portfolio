@@ -19,7 +19,7 @@ const Cv: React.FC<CvProps> = () => {
          <h1>ABOUT ME&#128330;
            <p>I am studying Information and Communication Technology in Vocational Qualification.
               The planned graduation from the school is 6/3/2023. In the afternoon I work at Wolt as a food courier.</p>
-           <p>I studied at the Vantaa Adult Primary School, At the adult primary school, I studied Finnish and Finnish primary school.</p>
+           <p>I studied at the Vantaa Adult Primary School, At the adult primary school, I studied finnish langueg and Finnish primary school.</p>
          </h1>
          <h1>PROGRAMMING LANGUAGES&#128330;
            <p>Java, TypeScript, JavaScript, C#, Unity, React, SQL, Node Sql, HTML, CSS, ReactJs</p>
