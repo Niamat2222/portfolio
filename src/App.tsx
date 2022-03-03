@@ -27,12 +27,19 @@ const App: React.FC = () => {
          </Switch>
   
         {/* The footer and other components you want to display on all pages come here */}
+        <div className={styles.footer}>
+        
+          <h1>Sosial Media</h1>
+          <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+          <a href="#" className="fa fa-facebook"></a>
+          <a href="#" className="fa fa-twitter"></a>
+          <a href="#" className="fa fa-google"></a>
+          <a href="#" className="fa fa-linkedin"></a>
+          <a href="#" className="fa fa-youtube"></a>
+          <a href="#" className="fa fa-instagram"></a>
+       </div>
 
-       <footer>
-          <p>Author: Hege Refsnes
-          <a href="mailto:hege@example.com">hege@example.com</a>
-          </p>
-       </footer>
   
       </Router>
    )
