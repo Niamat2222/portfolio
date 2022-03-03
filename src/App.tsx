@@ -30,8 +30,6 @@ const App: React.FC = () => {
         <div className={styles.footer}>
         
           <h1>Sosial Media</h1>
-          <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
           <a href="#" className="fa fa-facebook"></a>
           <a href="#" className="fa fa-twitter"></a>
           <a href="#" className="fa fa-google"></a>
