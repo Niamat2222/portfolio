@@ -14,21 +14,23 @@ const Projects: React.FC<ProjectsProps> = () => {
     <div className={styles.container}>
       <Banner text='PROJECTS'  className={styles.pic}/>
      <p className={styles.title}> Projects are here </p>
+     
+     <p /*For project links*//>
      <div className={styles.Projects}>
        <ul>
-         <a href='https://play.unity.com/u/Niamatcom/'>
+         <a href='https://play.unity.com/u/Niamatcom/' target={"_blank"} rel="noreferrer"/*This is for security*/>
           <img className={styles.GmProjects} src={pics}  alt="Dragon"/>
           <p>Click On Play.Unity</p>
          </a>
-         <a href='https://www.credly.com/badges/77061c91-e3ca-4ca0-bb66-53fb50095001/public_url/'>
+         <a href='https://www.credly.com/badges/77061c91-e3ca-4ca0-bb66-53fb50095001/public_url/' target={"_blank"} rel="noreferrer">
           <img className={styles.CiscoProjects} src={pics1}  alt="Dragon"/>
           <p>Click On My Badge</p>
          </a>
-         <a href='https://www.credly.com/badges/4943d606-6063-4079-bcf5-e4e3470da663/public_url/'>
+         <a href='https://www.credly.com/badges/4943d606-6063-4079-bcf5-e4e3470da663/public_url/' target={"_blank"} rel="noreferrer">
           <img className={styles.CiscoProjects} src={pics2}  alt="Dragon"/>
           <p>Click On My Badge</p>
          </a>
-         <a href='https://www.credly.com/badges/78216aea-da3e-4cfd-9834-1040c7367d61/public_url/'>
+         <a href='https://www.credly.com/badges/78216aea-da3e-4cfd-9834-1040c7367d61/public_url/' target={"_blank"} rel="noreferrer">
           <img className={styles.CiscoProjects} src={pics3}  alt="Dragon"/>
           <p>Click On My Badge</p>
          </a>
