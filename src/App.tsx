@@ -30,12 +30,12 @@ const App: React.FC = () => {
         <div className={styles.footer}>
         
           <h1>Sosial Media</h1>
-          <a href="." className="fa fa-facebook"></a>
-          <a href="." className="fa fa-twitter"></a>
-          <a href="." className="fa fa-google"></a>
-          <a href="." className="fa fa-linkedin"></a>
-          <a href="." className="fa fa-youtube"></a>
-          <a href="." className="fa fa-instagram"></a>
+          <a href="https://www.facebook.com/niamat.akbari.7/map" target={"_blank"} rel="noreferrer" className="fa fa-facebook">facebook</a>
+          <a href="." target={"_blank"} rel="noreferrer" className="fa fa-twitter">twitter</a>
+          <a href="." target={"_blank"} rel="noreferrer" className="fa fa-google">google</a>
+          <a href="." target={"_blank"} rel="noreferrer" className="fa fa-linkedin">linkedin</a>
+          <a href="." target={"_blank"} rel="noreferrer" className="fa fa-youtube">youtube</a>
+          <a href="." target={"_blank"} rel="noreferrer" className="fa fa-instagram">instagram</a>
        </div>
 
   
