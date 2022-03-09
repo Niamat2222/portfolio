@@ -68,11 +68,19 @@ div p{
   position: fixed;
   bottom: 0;
   width: 100vw;
+  padding: 20px;
+  text-decoration: none;
 }
 .footer h1{
     color: aqua;
 }
 
 .footer a{
-  color: white;
+  color: rgb(209, 138, 138);
+  display: inline-block;
+  margin: 20px;
 }
+.fa-facebook {  
+    background: #ffffff;  
+    color: rgb(0, 0, 0);  
+  } 
