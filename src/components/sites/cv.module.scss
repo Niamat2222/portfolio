@@ -9,7 +9,7 @@
     width: 160px;
     border: 10px solid aqua;
     margin: 0 15px;
-    margin-left:65%;
+    margin-left:auto;
 }
 .myimg:hover {
     transform: scaleX(-1);
@@ -21,9 +21,22 @@
     margin:auto;
     margin-top: 3%;
     background-color: rgb(70, 113, 131);
-    margin-bottom: 110px;
+    margin-bottom: 0px;
 }
 .activities h1 p{
+    font: 0.7em "Fira Sans", sans-serif;
+    text-align: center;
+}
+.activitis h1{
+    font-size: 30px;
+    margin-left: 30%;
+    text-align: center;
+    margin:auto;
+    margin-top: 3%;
+    background-color: rgb(70, 113, 131);
+    margin-bottom: 250px;
+}
+.activitis h1 p{
     font: 0.7em "Fira Sans", sans-serif;
     text-align: center;
 }

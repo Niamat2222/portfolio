@@ -13,7 +13,7 @@ const Cv: React.FC<CvProps> = () => {
        <Banner text='CV' className={styles.pic}/>
        </div>
        <div className={styles.mycv}>
-       <img className={styles.myimg} src={pics}  alt="Niamat"/>
+       <img className={styles.myimg} src={pics}  alt="Niamat"/>niamat.akbari@outlook.com
        </div>
        <div className={styles.activities}>
          <h1>ABOUT ME&#128330;
@@ -34,7 +34,7 @@ const Cv: React.FC<CvProps> = () => {
            <p>1/10/2020 - now&#128330; Job Foodora/Wolt food delivery</p>
          </h1>
        </div>
-       <div className={styles.activities}>
+       <div className={styles.activitis}>
          <h1>HOBBIES&#128330;
            <p>Gym, swimming, </p>
          </h1>
