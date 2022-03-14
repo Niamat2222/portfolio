@@ -56,22 +56,28 @@ const App: React.FC = () => {
             twitter
           </a>
 
-          <a href="http://127.0.0.1/wordpress/"
-            target={"_blank"} rel="noreferrer"
+          <a
+            href="http://127.0.0.1/wordpress/"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <BsWordpress size={25} color="#fff"/>
             wordpress
           </a>
 
-          <a href="https://github.com/Niamat2222"
-            target={"_blank"} rel="noreferrer"
+          <a
+            href="https://github.com/Niamat2222"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <BsGithub size={25} color="#fff"/>
             Github
           </a>
-          <a href="." target={"_blank"}
+
+          <a
+            href="."
+            target={"_blank"}
             rel="noreferrer"
-            className="fa fa-instagram"
           >
             <BsInstagram size={25} color="#fff"/>
             instagram
