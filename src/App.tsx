@@ -6,11 +6,7 @@ import Projects from './components/sites/projects';
 import Main from './components/sites/main/main'
 
 /* "Social Media"*/
-import { ImTwitter } from "react-icons/im"
-import { BsFacebook } from "react-icons/bs"
-import { BsWordpress } from "react-icons/bs"
-import { BsGithub } from "react-icons/bs"
-import { BsInstagram } from "react-icons/bs"
+import { BsFacebook, BsInstagram, BsGithub, BsWordpress, BsTwitter } from "react-icons/bs"
 
 
 import {
@@ -52,7 +48,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <ImTwitter size={25} color="#fff" />
+            <BsTwitter size={25} color="#fff" />
             twitter
           </a>
 
