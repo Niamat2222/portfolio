@@ -3,14 +3,23 @@
     align-items: center;
     align-content: center;
     text-align: center;
+    
 }
+
+.mycv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .myimg{
     width: 200px;
-    width: 160px;
     border: 10px solid aqua;
     margin: 0 15px;
-    margin-left:auto;
+    display: flex;
 }
+
 .myimg:hover {
     transform: scaleX(-1);
 }
@@ -40,3 +49,4 @@
     font: 0.7em "Fira Sans", sans-serif;
     text-align: center;
 }
+

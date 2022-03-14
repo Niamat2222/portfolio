@@ -5,6 +5,13 @@ import Cv from './components/sites/cv';
 import Projects from './components/sites/projects';
 import Main from './components/sites/main/main'
 
+/* "Social Media"*/
+import { ImTwitter } from "react-icons/im"
+import { BsFacebook } from "react-icons/bs"
+import { BsWordpress } from "react-icons/bs"
+import { BsGithub } from "react-icons/bs"
+import { BsInstagram } from "react-icons/bs"
+
 
 import {
   HashRouter as Router,
@@ -31,12 +38,44 @@ const App: React.FC = () => {
         <div className={styles.footer}>
         
           <h1>Social Media</h1>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-          <a href="https://www.facebook.com/niamat.akbari.7/" target={"_blank"} rel="noreferrer" className="fa fa-facebook">facebook</a>
-          <a href="https://twitter.com/Niamat61381883" target={"_blank"} rel="noreferrer" className="fa fa-twitter">twitter</a>
-          <a href="http://127.0.0.1/wordpress/" target={"_blank"} rel="noreferrer" className="fa fa-wordpress">wordpress</a>
-          <a href="https://github.com/Niamat2222" target={"_blank"} rel="noreferrer" className="fa fa-Github">Github</a>
-          <a href="." target={"_blank"} rel="noreferrer" className="fa fa-instagram">instagram</a>
+          <a 
+            href="https://www.facebook.com/niamat.akbari.7/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <BsFacebook size={25} color="#fff"/>
+            facebook
+          </a>
+
+          <a
+            href="https://twitter.com/Niamat61381883"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <ImTwitter size={25} color="#fff" />
+            twitter
+          </a>
+
+          <a href="http://127.0.0.1/wordpress/"
+            target={"_blank"} rel="noreferrer"
+          >
+            <BsWordpress size={25} color="#fff"/>
+            wordpress
+          </a>
+
+          <a href="https://github.com/Niamat2222"
+            target={"_blank"} rel="noreferrer"
+          >
+            <BsGithub size={25} color="#fff"/>
+            Github
+          </a>
+          <a href="." target={"_blank"}
+            rel="noreferrer"
+            className="fa fa-instagram"
+          >
+            <BsInstagram size={25} color="#fff"/>
+            instagram
+          </a>
        </div>
 
 

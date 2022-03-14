@@ -13,7 +13,8 @@ const Cv: React.FC<CvProps> = () => {
        <Banner text='CV' className={styles.pic}/>
        </div>
        <div className={styles.mycv}>
-       <img className={styles.myimg} src={pics}  alt="Niamat"/>niamat.akbari@outlook.com
+        <img className={styles.myimg} src={pics} alt="Niamat"/>
+        niamat.akbari@outlook.com
        </div>
        <div className={styles.activities}>
          <h1>ABOUT ME&#128330;
