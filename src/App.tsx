@@ -39,7 +39,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <BsFacebook size={25} color="#fff"/>
+            <BsFacebook size={25} color="rgb(0, 140, 255)"/>
             facebook
           </a>
 
@@ -48,7 +48,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <BsTwitter size={25} color="#fff" />
+            <BsTwitter size={25} color="rgb(0, 180, 255)" />
             twitter
           </a>
 
@@ -57,7 +57,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <BsWordpress size={25} color="#fff"/>
+            <BsWordpress size={25} color="rgb(165, 90, 0)"/>
             wordpress
           </a>
 
@@ -66,7 +66,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <BsGithub size={25} color="#fff"/>
+            <BsGithub size={25} color="black"/>
             Github
           </a>
 
@@ -75,7 +75,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <BsInstagram size={25} color="#fff"/>
+            <BsInstagram size={25} color="rgb(228, 8, 111)"/>
             instagram
           </a>
        </div>

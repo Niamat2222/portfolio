@@ -63,21 +63,19 @@ div p{
 .footer {
   text-align: center;
   padding: -5%;
-  background-color: rgb(9, 62, 85);
-  position: fixed;
+  background-color:rgb(49, 103, 126);
   bottom: 0;
   width: 100vw;
-  text-decoration: none;
-
-  
+  text-decoration: none; 
 }
 .footer h1{
     color: aqua;
 }
 
 .footer a{
-  color: rgb(255, 166, 166);
+  color: rgb(0, 0, 0);
   display: inline-block;
   margin: 20px;
   font-size: 20px;
+  font-weight: bolder;
 }
