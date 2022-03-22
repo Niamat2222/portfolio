@@ -6,7 +6,7 @@ import Projects from './components/sites/projects';
 import Main from './components/sites/main/main'
 
 /* "Social Media"*/
-import { BsFacebook, BsInstagram, BsGithub, BsWordpress, BsTwitter } from "react-icons/bs"
+import { BsFacebook, BsGithub, BsWordpress, BsTwitter } from "react-icons/bs"
 
 
 import {
