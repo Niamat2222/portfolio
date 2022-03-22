@@ -6,7 +6,7 @@ import Projects from './components/sites/projects';
 import Main from './components/sites/main/main'
 
 /* "Social Media"*/
-import { BsFacebook, BsGithub, BsWordpress, BsTwitter } from "react-icons/bs"
+import { BsFacebook, BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs"
 
 
 import {
@@ -57,7 +57,7 @@ const App: React.FC = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <BsWordpress size={25} color="#fff"/>
+            <BsLinkedin size={25} color="#fff"/>
             Linked
           </a>
 
